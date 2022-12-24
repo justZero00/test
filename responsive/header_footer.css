@@ -1,0 +1,95 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+*, *::before, *::after{
+    box-sizing: inherit;
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/Roboto/lato-v23-latin-regular.woff");
+}
+
+@font-face {
+    font-family: Lato;
+    font-weight: 600;
+    src: url("../fonts/Roboto/lato-v23-latin-700.woff");
+}
+
+
+.container-fluid {
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.container {
+    max-width: 1060px;
+    margin: 0 auto;
+    background-color: black;
+}
+
+
+.d-flex {
+    display: flex;
+    justify-content: ;
+    align-items: flex-end;
+}
+
+body {
+    font-family: "Lato", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+header > .container {
+    padding: 56px 20px;
+}
+
+header .container .menu a {
+    font-size: 1.500em;
+    text-decoration: none;
+    color: #fff;
+    margin: 0 41PX;
+}
+
+.active {
+    margin-right: 82px;
+}
+
+header .container .menu a:hover,
+header .container .menu a.active {
+    color: #BFC0C5;
+    font-weight: 600;
+    padding-bottom: 17px;
+    border-bottom: 2px solid #BFC0C5;
+}
+
+header form div {
+    justify-content: center;
+}
+
+header form div input[type="text"] {
+    border: 1px solid #fff;
+    margin-right: 10px;
+    width: 100%;
+    max-width: 350px;
+}
+
+header form div input[type="submit"] {
+    background: url("../Images/Oval.png");
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    border: 0px;
+    font-size: 1.500em;
+    text-decoration: none;
+    color: #fff;
+}
+
+header form div input[type="submit"]:hover {
+    cursor: pointer;
+}
